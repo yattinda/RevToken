@@ -1,0 +1,7 @@
+                 qPrintable(path));
+#################################
+        qWarning("QResource::addResourceSearchPath: Search paths must be absolute (start with /) [%ls]",
+                 qUtf16Printable(path));
+
+changed_token:['qPrintable']
+suggestion:['qPrintable', 'path']

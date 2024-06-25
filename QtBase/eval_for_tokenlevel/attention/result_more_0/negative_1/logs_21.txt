@@ -1,0 +1,7 @@
+using std::atomic_int;
+#################################
+typedef std::atomic_int ffd_atomic_int;
+typedef std::atomic_int ffd_atomic_int;
+
+changed_token:['std']
+suggestion:['atomic']

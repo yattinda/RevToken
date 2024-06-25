@@ -1,0 +1,7 @@
+    // Errors are written as CDATA within system-out, comments elsewhere
+#################################
+    // respectively, comments elsewhere
+    // Messages/errors are written as CDATA within system-out, system-err,
+    // respectively, comments elsewhere
+changed_token:['Errors', 'commentselsewhere']
+suggestion:['comments']

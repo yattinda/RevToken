@@ -1,0 +1,7 @@
+                     qPrintable(QString::fromUtf8(var.name)));
+#################################
+                     var.name.constData());
+                     var.name.constData());
+
+changed_token:['qPrintable', 'var', 'fromUtfNUM', 'QString', 'name']
+suggestion:['fromUtfNUM', 'qPrintable', 'QString']

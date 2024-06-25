@@ -1,0 +1,7 @@
+    void setFilterMode(bool enable) { d.setFilterMode(enable); }
+#################################
+
+        d.reportResult(std::forward<U>(result), index);
+
+changed_token:['void', 'd', 'bool', 'setFilterMode', 'enable']
+suggestion:['d']

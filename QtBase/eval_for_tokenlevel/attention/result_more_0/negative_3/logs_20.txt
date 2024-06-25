@@ -1,0 +1,7 @@
+        int nargs = 1; // include return type
+#################################
+        int argIndex = 0;
+        int argIndex = 0;
+
+changed_token:['NUM', 'int', 'nargs']
+suggestion:['include', 'type', 'return']

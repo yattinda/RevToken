@@ -1,0 +1,7 @@
+    using the locale's 8-bit codec for some backends, which may cause garbled
+#################################
+    output. Note that QDebug buffers internally as UTF-16 and may need to
+    transform to 8-bit using the localae's codec in order to use some backends,
+    which may cause garbled (mojibake) in the output. Restricting to US-ASCII
+changed_token:['for', 'the', 'locale']
+suggestion:['locale']

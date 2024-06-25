@@ -1,0 +1,7 @@
+  \sa QObjectBindableProperty, {Qt's Property System}, {Qt Bindable Properties}
+#################################
+
+  However, every write to the QObjectCompatProperty has to be analyzed carefully
+
+changed_token:['Qt', 'sa', 'QObjectBindableProperty']
+suggestion:['sa']

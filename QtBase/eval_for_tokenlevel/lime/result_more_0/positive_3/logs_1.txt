@@ -1,0 +1,7 @@
+    QDuplicateTracker<QString> *paths = (QSet<QString> *)data;
+#################################
+    QDuplicateTracker<QString> *paths = (QDuplicateTracker<QString> *)data;
+    QDuplicateTracker<QString> *paths = (QDuplicateTracker<QString> *)data;
+
+changed_token:['QSet']
+suggestion:['QString', 'QDuplicateTracker', 'QSet']

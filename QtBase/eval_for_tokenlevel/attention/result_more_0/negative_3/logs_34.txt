@@ -1,0 +1,7 @@
+            if (qAbs(diff) >= (1 << 13)) { // Does happen
+#################################
+            if (qAbs(diff) >= (1<<13)) {
+            if (qAbs(diff) >= (1<<13)) {
+
+changed_token:[]
+suggestion:['if', 'qAbs', 'happen']

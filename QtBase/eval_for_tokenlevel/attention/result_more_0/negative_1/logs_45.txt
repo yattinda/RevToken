@@ -1,0 +1,7 @@
+QByteArray QUtf8::convertFromUnicode(const QChar *uc, int len, QStringConverterBase::State *state)
+#################################
+QByteArray QUtf8::convertFromUnicode(const QChar *uc, qsizetype len, QStringConverterBase::State *state)
+QByteArray QUtf8::convertFromUnicode(const QChar *uc, qsizetype len, QStringConverterBase::State *state)
+
+changed_token:['int']
+suggestion:['const']

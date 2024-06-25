@@ -1,0 +1,7 @@
+            for (const int step = *iter < end ? 1 : -1; *iter != end; *iter += step)
+#################################
+            for (const int step = *iter < end ? 1 : -1; *iter != end; std::advance(*iter, step))
+            for (const int step = *iter < end ? 1 : -1; *iter != end; std::advance(*iter, step))
+
+changed_token:['step', 'iter']
+suggestion:['const']

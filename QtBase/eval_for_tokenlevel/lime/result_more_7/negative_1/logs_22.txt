@@ -1,0 +1,7 @@
+            parser.parsedProBlock(QStringView{ out }, 0, "out", 1, QMakeParser::FullGrammar);
+#################################
+            parser.parsedProBlock(out, 0, "out", 1, QMakeParser::FullGrammar);
+            parser.parsedProBlock(out, 0, "out", 1, QMakeParser::FullGrammar);
+
+changed_token:['QStringView']
+suggestion:['out']

@@ -1,0 +1,7 @@
+    QHash<QScreen*, QDesktopScreenWidget*> newScreenWidgets;
+#################################
+    QFlatMap<QScreen*, QDesktopScreenWidget*> newScreenWidgets;
+    QFlatMap<QScreen*, QDesktopScreenWidget*> newScreenWidgets;
+
+changed_token:['QHash']
+suggestion:['QHash', 'QDesktopScreenWidget', 'QScreen']

@@ -1,0 +1,7 @@
+    usage += qApp ? qApp->arguments().constFirst() : QStringLiteral("<executable_name>");
+#################################
+    usage += qApp ? QCoreApplication::arguments().constFirst() : QStringLiteral("<executable_name>");
+    usage += qApp ? QCoreApplication::arguments().constFirst() : QStringLiteral("<executable_name>");
+
+changed_token:['qApp']
+suggestion:['qApp']

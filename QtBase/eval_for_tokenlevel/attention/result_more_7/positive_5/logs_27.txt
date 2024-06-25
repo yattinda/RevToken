@@ -1,0 +1,7 @@
+    displayedData << QStringLiteral("resolve=0x%1").arg(p.resolve(), 0, 16);
+#################################
+    QDebugStateSaver saver(dbg);
+    QDebug nospace = dbg.nospace();
+
+changed_token:['QStringLiteral', 'arg', 'resolve', 'NUM', 'displayedData', 'p']
+suggestion:['displayedData', 'QStringLiteral', 'NUMx', 'p', 'arg']

@@ -1,0 +1,7 @@
+        const QByteArray pY = QString::number(positiveYearNumber).toLatin1();
+#################################
+        const QByteArray nY = QByteArray::number(negativeYearNumber);
+        const QByteArray pY = QByteArray::number(positiveYearNumber);
+        const QByteArray nY = QByteArray::number(negativeYearNumber);
+changed_token:['QString', 'toLatinNUM']
+suggestion:['const', 'toLatinNUM', 'QByteArray', 'pY', 'positiveYearNumber']

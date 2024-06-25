@@ -1,0 +1,7 @@
+    bool operator()(const T &el) { return (el.value & 1); }
+#################################
+    bool operator()(const T &el) { return el.isOdd(); }
+    bool operator()(const T &el) { return el.isOdd(); }
+
+changed_token:['value', 'NUM', 'el']
+suggestion:['const', 'NUM', 'value', 'bool', 'el']

@@ -1,0 +1,7 @@
+    for (const QEventPoint &point : m_touchPoints)
+#################################
+        QMutableEventPoint::from(point).setParent(this);
+    for (QEventPoint &point : m_touchPoints)
+        QMutableEventPoint::from(point).setParent(this);
+changed_token:[]
+suggestion:['const']

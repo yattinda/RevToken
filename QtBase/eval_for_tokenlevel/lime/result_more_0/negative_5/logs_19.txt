@@ -1,0 +1,7 @@
+    if (sizeof(size_t) == 4) {
+#################################
+    if constexpr (sizeof(size_t) == 4) {
+    if constexpr (sizeof(size_t) == 4) {
+
+changed_token:[]
+suggestion:['sizeof', 'NUM', 'if', 't', 'size']

@@ -1,0 +1,7 @@
+#if !defined(QT_BOOTSTRAPPED) && QT_CONFIG(easingcurve)
+#################################
+#if QT_CONFIG(easingcurve)
+#if QT_CONFIG(easingcurve)
+
+changed_token:['defined']
+suggestion:['defined', 'if', 'CONFIG']

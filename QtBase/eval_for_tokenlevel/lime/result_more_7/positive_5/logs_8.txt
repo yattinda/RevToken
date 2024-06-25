@@ -1,0 +1,7 @@
+    Tools t(&wnd, glw3, QList<QWidget *>() << glw << glw2 << glw3 << glw4);
+#################################
+    Tools t(&wnd, glw3, QWidgetList { glw, glw2, glw3, glw4 });
+    Tools t(&wnd, glw3, QWidgetList { glw, glw2, glw3, glw4 });
+
+changed_token:['glwNUM', 'glw', 'QWidget', 'QList']
+suggestion:['QList', 't', 'QWidget', 'wnd', 'glw']

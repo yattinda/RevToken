@@ -1,0 +1,7 @@
+    *this = QLocaleData::c()->doubleToString(n, prec, form, -1, flags).toLatin1(); // TODO UTF-8 ?
+#################################
+    *this = QLocaleData::c()->doubleToString(n, prec, form, -1, flags).toUtf8();
+    *this = QLocaleData::c()->doubleToString(n, prec, form, -1, flags).toUtf8();
+
+changed_token:['toLatinNUM']
+suggestion:['TODO', 'QLocaleData', 'toLatinNUM', 'form', 'doubleToString']

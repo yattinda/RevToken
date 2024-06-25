@@ -1,0 +1,7 @@
+        bool operator==(const ParsedSection &o) const
+#################################
+
+        QPropertyObserver **nodeState;
+
+changed_token:['operator', 'const', 'ParsedSection', 'o', 'bool']
+suggestion:['const', 'ParsedSection', 'bool', 'o', 'operator']

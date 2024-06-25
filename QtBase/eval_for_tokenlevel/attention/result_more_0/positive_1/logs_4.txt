@@ -1,0 +1,7 @@
+                QStringLiteral("%1:[%2]").arg(
+#################################
+            roleString += QString::fromUtf8(roleEnum.valueToKey(cr)) + QStringLiteral(":[") +
+                          groupString + QStringLiteral("],");
+
+changed_token:['QStringLiteral', 'arg']
+suggestion:['QStringLiteral']

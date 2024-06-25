@@ -1,0 +1,7 @@
+    QDateTime bound = QDateTime::fromMSecsSinceEpoch(std::numeric_limits<qint64>::min());
+#################################
+    QDateTime bound = QDateTime::fromMSecsSinceEpoch(std::numeric_limits<qint64>::min(), Qt::UTC);
+    QDateTime bound = QDateTime::fromMSecsSinceEpoch(std::numeric_limits<qint64>::min(), Qt::UTC);
+
+changed_token:[]
+suggestion:['QDateTime']

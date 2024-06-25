@@ -1,0 +1,7 @@
+#  define QT_DEPRECATED_CODE(...)
+#################################
+#  define QT_DEPRECATED_CODE(...) __VA_ARGS__
+#  define QT_DEPRECATED_CODE(...) __VA_ARGS__
+
+changed_token:[]
+suggestion:['QT', 'DEPRECATED', 'define', 'CODE']

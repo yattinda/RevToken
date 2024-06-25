@@ -1,0 +1,11 @@
+                    "       ** To canceal the keystore information, the keystore and alias
+"
+#################################
+                    "         passwords respectively. This option needs only the --sign parameter.
+"
+                    "       NOTE: To conceal the keystore information, the environment variables
+"
+                    "         QT_ANDROID_KEYSTORE_PATH, and QT_ANDROID_KEYSTORE_ALIAS are used to
+"
+changed_token:['keystoreandalias', 'canceal']
+suggestion:['n', 'To', 'canceal']

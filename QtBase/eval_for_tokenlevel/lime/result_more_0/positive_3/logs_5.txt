@@ -1,0 +1,7 @@
+    quint32 reserved : 10;
+#################################
+    quint16 m_singlePointEvent : 1;
+    quint16 reserved : 10;
+
+changed_token:['quintNUM']
+suggestion:['reserved', 'NUM', 'quintNUM']

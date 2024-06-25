@@ -1,0 +1,3 @@
+    either zero or NaN, and returns a reference to this vector.
+    Divides this vector's coordinates by the given \a divisor, and returns a
+    reference to this vector. The \a divisor must not be either zero or NaN.

@@ -1,0 +1,7 @@
+                ok = (data_len == file.read((char *)data, data_len));
+#################################
+                ok = (data_len == file.read(reinterpret_cast<char *>(data), data_len));
+                ok = (data_len == file.read(reinterpret_cast<char *>(data), data_len));
+
+changed_token:['char', 'data']
+suggestion:['char', 'ok', 'read']

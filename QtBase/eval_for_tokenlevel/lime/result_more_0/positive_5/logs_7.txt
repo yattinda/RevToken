@@ -1,0 +1,7 @@
+    int flags() const { return flagBits; }
+#################################
+
+//                this, SLOT(callFinishedSlot(QDBusPendingCallWatcher*)));
+
+changed_token:['int', 'flagBits', 'flags']
+suggestion:['int', 'flags', 'const', 'flagBits', 'return']

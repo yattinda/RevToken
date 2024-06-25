@@ -1,0 +1,7 @@
+    if (QGuiApplication::platformName() == "offscreen")
+#################################
+    if (QGuiApplication::platformName() == u"offscreen")
+    if (QGuiApplication::platformName() == u"offscreen")
+
+changed_token:[]
+suggestion:['QGuiApplication']

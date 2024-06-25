@@ -1,0 +1,7 @@
+const decltype(typenameHelper<T>()) QMetaTypeForType<T>::name = typenameHelper<T>();
+#################################
+constexpr const decltype(typenameHelper<T>()) QMetaTypeForType<T>::name = typenameHelper<T>();
+constexpr const decltype(typenameHelper<T>()) QMetaTypeForType<T>::name = typenameHelper<T>();
+
+changed_token:[]
+suggestion:['QMetaTypeForType', 'const', 'decltype', 'name', 'typenameHelper']

@@ -1,0 +1,7 @@
+    constexpr int normalizeType(const char *begin, const char *end, bool adjustConst = true, const char *abiNamespaceBegin = nullptr, bool hasAbiNamespace=false)
+#################################
+    constexpr int normalizeType(const char *begin, const char *end, bool adjustConst = true, const char *abiNamespaceBegin = nullptr)
+    constexpr int normalizeType(const char *begin, const char *end, bool adjustConst = true, const char *abiNamespaceBegin = nullptr)
+
+changed_token:['hasAbiNamespace', 'bool', 'false']
+suggestion:['nullptr']

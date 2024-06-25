@@ -1,0 +1,7 @@
+    But be careful when passing fixed size C arrays to QByteArray methods that
+#################################
+    size, and not by scanning for the first '\\0' terminator. For example:
+    But be careful when passing fixed size C arrays (including string literals)
+    to QByteArray methods that accept a start-pointer or QByteArrayView: the
+changed_token:['C', 'passing', 'But', 'size', 'be', 'arrays', 'careful', 'that', 'QByteArray', 'methods', 'to', 'fixed', 'when']
+suggestion:['QByteArray', 'But', 'that']

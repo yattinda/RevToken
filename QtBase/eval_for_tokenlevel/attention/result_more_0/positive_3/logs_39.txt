@@ -1,0 +1,7 @@
+        if(ciso646file.exists()) {
+#################################
+        else
+            moc.abiNamespace = "";
+
+changed_token:['exists', 'if', 'cisoNUMfile']
+suggestion:['cisoNUMfile', 'if', 'exists']

@@ -1,0 +1,4 @@
+    Returns the known maximum length for the identifier \a type according to the database settings. Returns
+    INT_MAX by default if the is no maximum for the database.
+    Returns the maximum length for the identifier \a type according to the database settings. Returns
+    INT_MAX by default if the is no maximum for the database.

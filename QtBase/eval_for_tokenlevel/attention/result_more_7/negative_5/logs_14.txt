@@ -1,0 +1,7 @@
+                        new QMetaCallEvent(c->method_offset, c->method_relative, c->callFunction, sender, signal_index, argv, &semaphore);
+#################################
+                                           sender, signal_index, argv, &semaphore);
+                        new QMetaCallEvent(c->method_offset, c->method_relative, c->callFunction,
+                                           sender, signal_index, argv, &semaphore);
+changed_token:[]
+suggestion:['QMetaCallEvent', 'new', 'semaphore', 'argv', 'callFunction']

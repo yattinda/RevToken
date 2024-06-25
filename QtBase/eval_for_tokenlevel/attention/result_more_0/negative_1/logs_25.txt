@@ -1,0 +1,7 @@
+#include "qlist.h"
+#################################
+
+QList<QString> list1(3);
+
+changed_token:[]
+suggestion:['qlist']

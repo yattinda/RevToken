@@ -1,0 +1,7 @@
+#if QT_STRINGVIEW_LEVEL < 2
+#################################
+
+    bool m_isDead = false;
+
+changed_token:['NUM']
+suggestion:['NUM']

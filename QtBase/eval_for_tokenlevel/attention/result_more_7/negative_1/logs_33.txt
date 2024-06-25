@@ -1,0 +1,7 @@
+    QT_DEPRECATED_VERSION_X_5_15("Use globalPosition()")
+#################################
+    QT_DEPRECATED_VERSION_X_6_0("Use globalPosition()")
+    QT_DEPRECATED_VERSION_X_6_0("Use globalPosition()")
+
+changed_token:[]
+suggestion:['QT']

@@ -1,0 +1,7 @@
+    std::sort(intervals.begin(), intervals.end(), [](const QPair<int, int> &a, const QPair<int, int> &b) {
+#################################
+    std::sort(intervals.begin(), intervals.end());
+    std::sort(intervals.begin(), intervals.end());
+
+changed_token:['b', 'std', 'intervals', 'sort', 'a', 'QPair', 'int', 'end', 'begin']
+suggestion:['int', 'intervals', 'const']

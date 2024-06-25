@@ -1,0 +1,7 @@
+    if (needsToCompact())
+#################################
+    compactIfNeeded();
+    compactIfNeeded();
+
+changed_token:['needsToCompact', 'if']
+suggestion:['if']

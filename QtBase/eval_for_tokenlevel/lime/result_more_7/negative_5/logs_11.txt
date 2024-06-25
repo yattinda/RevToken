@@ -1,0 +1,7 @@
+        QEXPECT_FAIL("new badsize 0x10000", "size > INT_MAX fails on 32bit system", Continue);
+#################################
+                     Continue);
+        QEXPECT_FAIL("new badsize 0x10000", "size > INT_MAX fails on 32bit system (QTBUG-87660)",
+                     Continue);
+changed_token:[]
+suggestion:['new', 'on', 'badsize', 'MAX', 'size']

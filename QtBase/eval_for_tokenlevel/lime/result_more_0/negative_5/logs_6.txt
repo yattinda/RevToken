@@ -1,0 +1,7 @@
+int QListWidget::findData(const QString& text, Qt::MatchFlags flags) const
+#################################
+int QListWidget::findData(const QString &text, Qt::MatchFlags flags) const
+int QListWidget::findData(const QString &text, Qt::MatchFlags flags) const
+
+changed_token:[]
+suggestion:['QListWidget', 'int', 'MatchFlags', 'const', 'flags']

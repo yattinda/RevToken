@@ -1,0 +1,7 @@
+    else if (!std::is_same_v<Type, void>)
+#################################
+    if constexpr (!std::is_same_v<Type, void>)
+
+    if constexpr (!std::is_same_v<Type, void>)
+changed_token:['else']
+suggestion:['std']

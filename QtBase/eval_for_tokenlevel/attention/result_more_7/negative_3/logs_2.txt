@@ -1,0 +1,7 @@
+// for the search. \a guess my be nullptr. Returns nullptr if \a position is outside
+#################################
+// for the search. \a guess might be nullptr. Returns nullptr if \a position is outside
+// for the search. \a guess might be nullptr. Returns nullptr if \a position is outside
+
+changed_token:['my']
+suggestion:['search', 'Returns', 'guess']

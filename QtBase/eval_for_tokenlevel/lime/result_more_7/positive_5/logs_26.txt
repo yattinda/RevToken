@@ -1,0 +1,7 @@
+        if constexpr (std::is_invocable_v<decltype(Callback), Class>) {
+#################################
+            // When newValue is T, we move it, if it's const T& it stays const T& and won't get moved
+        if constexpr (CallbackAcceptsOldValue) {
+            // When newValue is T, we move it, if it's const T& it stays const T& and won't get moved
+changed_token:['Callback', 'std', 'Class', 'decltype']
+suggestion:['decltype', 'is', 'constexpr', 'if', 'v']

@@ -1,0 +1,4 @@
+        if (it != content.end() && it->first == x.first) {
+        auto &mc = mutableContent();
+        auto it = std::lower_bound(mc.begin(), mc.end(), key,
+                                   [this](const value_type &v, const Key &k)

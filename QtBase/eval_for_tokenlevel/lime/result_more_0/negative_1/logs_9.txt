@@ -1,0 +1,7 @@
+        : varRef(var), oldValue(std::exchange(var, std::move(value)))
+#################################
+        : varRef(var), oldValue(qExchange(var, std::move(value)))
+        : varRef(var), oldValue(qExchange(var, std::move(value)))
+
+changed_token:[]
+suggestion:['std']

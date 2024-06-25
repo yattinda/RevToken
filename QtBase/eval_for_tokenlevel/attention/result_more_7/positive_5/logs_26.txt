@@ -1,0 +1,7 @@
+    QT_DEPRECATED_X("Use vasprintf(), arg() or QTextStream instead")
+#################################
+    QT_DEPRECATED_X("Use asprintf(), arg() or QTextStream instead")
+    QT_DEPRECATED_X("Use asprintf(), arg() or QTextStream instead")
+
+changed_token:['vasprintf']
+suggestion:['X', 'QT', 'DEPRECATED', 'vasprintf', 'QTextStream']

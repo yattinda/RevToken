@@ -1,0 +1,7 @@
+            uncompressedBytes += countHelper->read(temp.data(), temp.size());
+#################################
+            uncompressedBytes += bytesRead;
+            qint64 bytesRead = countHelper->read(temp.data(), temp.size());
+            if (bytesRead == -1) {
+changed_token:['uncompressedBytes', 'qintNUM', 'bytesRead']
+suggestion:['temp', 'countHelper', 'data']

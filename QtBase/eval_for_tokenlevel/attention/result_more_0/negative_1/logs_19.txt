@@ -1,0 +1,7 @@
+    if (QOperatingSystemVersion::current() < QOperatingSystemVersion::Windows10) {
+#################################
+    if (QOperatingSystemVersion::current() < QOperatingSystemVersion::Windows10)
+    if (QOperatingSystemVersion::current() < QOperatingSystemVersion::Windows10)
+
+changed_token:[]
+suggestion:['if']

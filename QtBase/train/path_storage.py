@@ -1,0 +1,1 @@
+datasets_path = '/QtBase/datasets/train_and_test'

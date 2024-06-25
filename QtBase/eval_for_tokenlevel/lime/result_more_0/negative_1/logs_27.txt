@@ -1,0 +1,7 @@
+        return static_cast<QMutableEventPoint *>(static_cast<QEventPoint *>(me));
+#################################
+        return static_cast<QMutableEventPoint *>(me);
+        return static_cast<QMutableEventPoint *>(me);
+
+changed_token:['me', 'QEventPoint']
+suggestion:['static']

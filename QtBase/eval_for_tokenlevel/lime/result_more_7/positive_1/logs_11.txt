@@ -1,0 +1,7 @@
+    template<typename T_ = T, typename = QtPrivate::EnableForNonVoid<T_>>
+#################################
+    template<typename U = T, typename = QtPrivate::EnableForNonVoid<U>>
+    template<typename U = T, typename = QtPrivate::EnableForNonVoid<U>>
+
+changed_token:['EnableForNonVoid', 'template', 'T', 'QtPrivate', 'typename']
+suggestion:['EnableForNonVoid']

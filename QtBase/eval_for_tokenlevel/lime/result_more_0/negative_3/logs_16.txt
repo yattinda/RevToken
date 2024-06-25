@@ -1,0 +1,7 @@
+    const auto dirElts = qToStringViewIgnoringNull(dir).split(QLatin1Char('/'), Qt::SkipEmptyParts);
+#################################
+    const auto fileElts = file.tokenize(QLatin1Char('/'), Qt::SkipEmptyParts);
+    const auto dirElts = dir.tokenize(QLatin1Char('/'), Qt::SkipEmptyParts);
+    const auto fileElts = file.tokenize(QLatin1Char('/'), Qt::SkipEmptyParts);
+changed_token:['qToStringViewIgnoringNull', 'dir', 'split']
+suggestion:['const', 'Qt', 'auto']

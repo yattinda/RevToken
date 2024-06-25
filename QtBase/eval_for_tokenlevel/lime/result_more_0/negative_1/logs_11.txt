@@ -1,0 +1,7 @@
+    Returns the index position of the first occurrence of the string view \a
+#################################
+    Returns the index position of the first occurrence of the string  view\a
+    Returns the index position of the first occurrence of the string  view\a
+
+changed_token:[]
+suggestion:['view']

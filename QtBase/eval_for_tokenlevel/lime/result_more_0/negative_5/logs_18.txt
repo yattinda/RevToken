@@ -1,0 +1,7 @@
+            reduce, ResultType(std::forward<InitialValueType>(initialValue)), options);
+#################################
+            ResultType(std::forward<InitialValueType>(initialValue)), options);
+            ResultType(std::forward<InitialValueType>(initialValue)), options);
+
+changed_token:['reduce']
+suggestion:['options', 'std', 'InitialValueType', 'ResultType', 'initialValue']

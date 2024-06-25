@@ -1,0 +1,7 @@
+        return QStringList({ QString() }); // default behavior for empty pattern
+#################################
+        return QStringList { QString() }; // default behavior for empty pattern
+        return QStringList { QString() }; // default behavior for empty pattern
+
+changed_token:['QString']
+suggestion:['return']

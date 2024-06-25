@@ -1,0 +1,7 @@
+        if (words.at(0).endsWith(u",")) {
+#################################
+        if (words.at(0).endsWith(u',')) {
+        if (words.at(0).endsWith(u',')) {
+
+changed_token:[]
+suggestion:['NUM', 'words', 'if']

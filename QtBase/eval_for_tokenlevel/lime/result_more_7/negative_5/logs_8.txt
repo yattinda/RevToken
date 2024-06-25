@@ -1,0 +1,7 @@
+        QT_DEPRECATED_VERSION_X_5_15("Use scenePosition()")
+#################################
+        QT_DEPRECATED_VERSION_X_6_0("Use scenePosition()")
+        QT_DEPRECATED_VERSION_X_6_0("Use scenePosition()")
+
+changed_token:[]
+suggestion:['DEPRECATED', 'QT', 'X', 'VERSION', 'NUM']

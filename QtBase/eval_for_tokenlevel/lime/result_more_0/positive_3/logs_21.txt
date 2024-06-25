@@ -1,0 +1,7 @@
+    if constexpr (sizeof(qsizetype) == sizeof(int))
+#################################
+        QEXPECT_FAIL("", "fails on 32-bit systems (QTBUG-89889)", Continue);
+    if constexpr (sizeof(qsizetype) == 4)
+        QEXPECT_FAIL("", "fails on 32-bit systems (QTBUG-89889)", Continue);
+changed_token:['int', 'sizeof', 'qsizetype', 'if']
+suggestion:['constexpr', 'int', 'if']

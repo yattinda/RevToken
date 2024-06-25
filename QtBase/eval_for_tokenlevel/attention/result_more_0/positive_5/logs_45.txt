@@ -1,0 +1,7 @@
+        const qsizetype len = int(strlen(str));
+#################################
+        const qsizetype len = qsizetype(strlen(str));
+        const qsizetype len = qsizetype(strlen(str));
+
+changed_token:['int']
+suggestion:['qsizetype', 'const', 'strlen', 'int', 'str']

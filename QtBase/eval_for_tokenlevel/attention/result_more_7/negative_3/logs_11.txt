@@ -1,0 +1,7 @@
+                    QString fileName = QFileInfo(reader.attributes().value(QLatin1String("file")).toString()).filePath();
+#################################
+                    QString fileName = QDir::cleanPath(reader.attributes().value(QLatin1String("file")).toString());
+                    QString fileName = QDir::cleanPath(reader.attributes().value(QLatin1String("file")).toString());
+
+changed_token:['filePath', 'QFileInfo']
+suggestion:['reader', 'attributes', 'QLatinNUMString']

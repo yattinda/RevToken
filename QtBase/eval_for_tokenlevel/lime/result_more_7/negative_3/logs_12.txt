@@ -1,0 +1,7 @@
+        if (starts_with_token2(begin, end, "std::__")) {
+#################################
+        if (starts_with_string(begin, end, "std::__")) {
+        if (starts_with_string(begin, end, "std::__")) {
+
+changed_token:[]
+suggestion:['std', 'end', 'begin']

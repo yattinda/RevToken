@@ -1,0 +1,7 @@
+        value_type x{ std::move(key), T() };
+#################################
+            mc.erase(it);
+        T result;
+        auto &mc = mutableContent();
+changed_token:['T', 'key', 'move', 'x', 'std']
+suggestion:['x']

@@ -1,0 +1,7 @@
+    QDBusInterface *interface;
+#################################
+class Abstract_DBus_Interface : public QObject
+{
+    Q_OBJECT
+changed_token:['interface', 'QDBusInterface']
+suggestion:['QDBusInterface', 'interface']

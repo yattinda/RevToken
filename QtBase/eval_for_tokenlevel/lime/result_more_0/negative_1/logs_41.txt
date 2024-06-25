@@ -1,0 +1,7 @@
+//Q_NOREPLY void myMethod();
+#################################
+Q_NOREPLY void myMethod();
+Q_NOREPLY void myMethod();
+
+changed_token:[]
+suggestion:['void']

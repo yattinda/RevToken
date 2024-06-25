@@ -1,0 +1,7 @@
+    QVector<QPair<QAccessible::Id, const QMetaObject*>> values = objectToId.values(obj);
+#################################
+    if (const QMetaObject *mo = obj->metaObject()) {
+        for (auto pair : objectToId.values(obj)) {
+
+changed_token:['QMetaObject', 'QVector', 'objectToId', 'values', 'QAccessible', 'Id', 'QPair', 'obj']
+suggestion:['const', 'QVector', 'QMetaObject']

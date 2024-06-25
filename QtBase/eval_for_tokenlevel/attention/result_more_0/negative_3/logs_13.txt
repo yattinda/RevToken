@@ -1,0 +1,7 @@
+    const auto totalSize = resolveStringRefsAndReturnTotalSize(parts, argIndexToPlaceholderMap, args);
+#################################
+    const int totalSize = resolveStringRefsAndReturnTotalSize(parts, argIndexToPlaceholderMap, args);
+    const int totalSize = resolveStringRefsAndReturnTotalSize(parts, argIndexToPlaceholderMap, args);
+
+changed_token:[]
+suggestion:['const', 'argIndexToPlaceholderMap', 'totalSize']

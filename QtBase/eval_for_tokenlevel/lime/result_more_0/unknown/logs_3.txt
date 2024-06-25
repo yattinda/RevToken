@@ -1,0 +1,3 @@
+    running/finished status and the return value of the function. In addition,
+    Similar to QtConcurrent::run(), the QFuture returned can be used to query for the
+    running/finished status and the value reported by the function. In addition,

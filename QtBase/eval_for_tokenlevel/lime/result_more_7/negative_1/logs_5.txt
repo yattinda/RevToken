@@ -1,0 +1,7 @@
+                if constexpr (std::is_invocable_v<std::decay_t<Function>, QFuture<void>>)
+#################################
+                fulfillPromiseWithResult();
+                fulfillPromiseWithVoidResult();
+            } else if constexpr (std::is_invocable_v<Function, ParentResultType>) {
+changed_token:['void', 'std', 'QFuture', 'Function']
+suggestion:['constexpr']

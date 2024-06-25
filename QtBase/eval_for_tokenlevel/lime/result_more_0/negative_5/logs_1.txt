@@ -1,0 +1,7 @@
+    if (insertIndex != -1 && (!store.filterMode() || oldResultCount < store.count())) {
+#################################
+    if (insertIndex != -1 && (!store.filterMode() || oldResultCount < store.count()))
+    if (insertIndex != -1 && (!store.filterMode() || oldResultCount < store.count()))
+
+changed_token:[]
+suggestion:['filterMode', 'NUM', 'if', 'count', 'oldResultCount']

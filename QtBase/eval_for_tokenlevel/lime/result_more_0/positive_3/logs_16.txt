@@ -1,0 +1,7 @@
+    if (signal_index < 0 || !connections)
+#################################
+    if (signal_index < 0 || !cd)
+    ConnectionData *cd = connections.load();
+    if (signal_index < 0 || !cd)
+changed_token:['connections']
+suggestion:['connections', 'if', 'NUM']

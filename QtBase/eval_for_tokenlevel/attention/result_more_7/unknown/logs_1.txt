@@ -1,0 +1,4 @@
+    The function is called when the window is requested to close. Ignore the
+    on the event if you want to prevent the window from being closed.
+    The function is called when the window is requested to close. Call \l{QEvent::ignore()}
+    on the event if you want to prevent the window from being closed.

@@ -1,0 +1,8 @@
+                 "more information. Qt will continue as UTF-8 (\"%s\").",
+#################################
+                 "Qt shall use a UTF-8 locale (\"%s\") instead. If this causes problems,
+"
+                 "reconfigure your locale. See the locale(1) manual for more information.",
+
+changed_token:['willcontinueas']
+suggestion:['Qt', 'continue', 'will']

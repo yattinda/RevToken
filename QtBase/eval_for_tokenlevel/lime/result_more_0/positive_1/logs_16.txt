@@ -1,0 +1,7 @@
+            auto previous = std::atomic_load<typename ArenaData::AtomicNode>(&d->atomicStack);
+#################################
+            auto previous = d->atomicStack.load(std::memory_order_relaxed);
+            auto previous = d->atomicStack.load(std::memory_order_relaxed);
+
+changed_token:['ArenaData', 'AtomicNode', 'atomicStack', 'std', 'd']
+suggestion:['d']
