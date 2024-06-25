@@ -1,0 +1,7 @@
+        new_size = self.connector.extend_volume(connection_info['data'])
+#################################
+
+                    if not disk:
+
+changed_token:['extend', 'data', 'size', 'info', 'connection', 'self', 'connector', 'volume', 'new']
+suggestion:['new']

@@ -1,0 +1,7 @@
+        :param write_image: Write the image file provided by image_chunks.
+#################################
+        :param dst_path: Filepath to transfer the image file to.
+        :param dst_path: Filepath to transfer the image file to.
+
+changed_token:['image', 'provided', 'by', 'Write', 'write', 'chunks']
+suggestion:['param']

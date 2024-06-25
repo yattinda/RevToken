@@ -1,0 +1,7 @@
+                dev_rp_name = dev_rp['name']
+#################################
+
+                dev_rp_name = self.reportclient.get_resource_provider_name(
+
+changed_token:['rp', 'dev']
+suggestion:['name', 'rp', 'dev']

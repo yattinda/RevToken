@@ -1,0 +1,7 @@
+    """Tests for the 2.68 microversion in the os-attach-interfaces API
+#################################
+class AttachInterfacesSampleV268JsonTest(AttachInterfacesSampleJsonTest):
+    """Tests for the 2.68 microversion in the os-interface API
+
+changed_token:['interfaces', 'API', 'attach']
+suggestion:['Tests']

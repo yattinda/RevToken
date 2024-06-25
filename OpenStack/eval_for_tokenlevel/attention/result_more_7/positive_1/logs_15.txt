@@ -1,0 +1,7 @@
+    * 2.63 - Add PENDING in InstanceState.
+#################################
+             ``PENDING`` state is mapped to the ``ERROR`` state.
+    * 2.63 - Add support for applying trusted certificates when creating or
+             rebuilding a server.
+changed_token:['InstanceState', 'PENDING', 'in']
+suggestion:['in']

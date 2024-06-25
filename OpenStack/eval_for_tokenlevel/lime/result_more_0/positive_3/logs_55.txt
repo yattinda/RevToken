@@ -1,0 +1,7 @@
+        # Management Partition is VIOS and Novalink hosted storage
+#################################
+        # Management Partition is VIOS and NovaLink hosted storage
+        # Management Partition is VIOS and NovaLink hosted storage
+
+changed_token:['storage', 'Novalink']
+suggestion:['is', 'and', 'Novalink']

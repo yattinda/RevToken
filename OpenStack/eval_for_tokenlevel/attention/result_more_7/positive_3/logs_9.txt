@@ -1,0 +1,7 @@
+                "role:member and project_id:%(project_id)s"
+#################################
+
+                       fatal=False):
+
+changed_token:['and', 'role', 'member', 'id', 's', 'project']
+suggestion:['role', 'member', 's']

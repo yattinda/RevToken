@@ -1,0 +1,7 @@
+        search_opts = {
+#################################
+        # so this probably works, but we block evac with vdpa until tested.
+        if instance.has_vdpa_ports():
+
+changed_token:['search', 'opts']
+suggestion:['opts', 'search']

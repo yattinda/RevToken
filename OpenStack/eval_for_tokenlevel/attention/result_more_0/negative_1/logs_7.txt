@@ -1,0 +1,7 @@
+            print(_(str(e)))
+#################################
+            print(str(e))
+            print(str(e))
+
+changed_token:[]
+suggestion:['str']

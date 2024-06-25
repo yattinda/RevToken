@@ -1,0 +1,7 @@
+        if 'nova_object.name' not in primitive:
+#################################
+        """
+    @classmethod
+    def _migrate_legacy_object(cls, context, instance_uuid, primitive):
+changed_token:['name', 'in', 'primitive', 'if', 'nova', 'not']
+suggestion:['if', 'primitive', 'not']

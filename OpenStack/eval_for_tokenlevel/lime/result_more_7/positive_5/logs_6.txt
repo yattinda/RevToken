@@ -1,0 +1,7 @@
+                                'There is not enough inventory left on %s RP '
+#################################
+                                'resources.' % (
+                                'There is not enough inventory left on %s '
+                                'resource provider to remove %d amount of %s '
+changed_token:['RP']
+suggestion:['enough', 'There', 'RP', 'not', 'is']

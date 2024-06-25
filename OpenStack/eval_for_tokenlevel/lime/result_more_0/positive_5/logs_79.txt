@@ -1,0 +1,7 @@
+            utils.reraise(*exc_info)
+#################################
+            raise e
+            raise e
+
+changed_token:['exc', 'reraise', 'utils', 'info']
+suggestion:['reraise', 'utils', 'exc', 'info']

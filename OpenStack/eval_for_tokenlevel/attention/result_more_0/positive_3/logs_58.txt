@@ -1,0 +1,7 @@
+CONF = nova.conf.CONF
+#################################
+
+        for host_name in host_infos:
+
+changed_token:['CONF', 'nova', 'conf']
+suggestion:['nova', 'conf', 'CONF']

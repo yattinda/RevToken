@@ -1,0 +1,7 @@
+                mock.patch.object(host.Host, 'has_min_version',
+#################################
+            mock.patch.object(host.Host, 'has_min_version', return_value=True),
+            mock.patch.object(host.Host, 'has_min_version', return_value=True),
+
+changed_token:[]
+suggestion:['mock', 'patch', 'object']

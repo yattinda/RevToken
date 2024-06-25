@@ -1,0 +1,7 @@
+        raise exception.Invalid(
+#################################
+        raise exception.RequiredMixedOrRealtimeCPUMask
+        raise exception.RequiredMixedOrRealtimeCPUMask
+
+changed_token:['Invalid']
+suggestion:['Invalid']

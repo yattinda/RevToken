@@ -1,0 +1,7 @@
+        with direct.PlacementDirect(CONF) as (url, session):
+#################################
+            resp = client.get('/resource_providers')
+        with direct.PlacementDirect(CONF) as client:
+            resp = client.get('/resource_providers')
+changed_token:['(url', 'session']
+suggestion:['CONF', 'with', 'as', 'session', 'url']

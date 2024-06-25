@@ -1,0 +1,7 @@
+        self.assertEqual(410, ex.response.status_code)
+#################################
+                          self.api.api_delete, 'os-cells/cell3',
+                          check_response_state=[410])
+
+changed_token:['NUM', 'assertEqual', 'status', 'code', 'ex']
+suggestion:['assertEqual', 'NUM', 'ex', 'response', 'self']

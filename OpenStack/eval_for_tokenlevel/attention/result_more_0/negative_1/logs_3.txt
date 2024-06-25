@@ -1,0 +1,7 @@
+                           objects.InstanceNUMACell(
+#################################
+                id=0, cpuset=set([0]), pcpuset=set(), memory=1024),
+            objects.InstanceNUMACell(
+
+changed_token:[]
+suggestion:['objects']

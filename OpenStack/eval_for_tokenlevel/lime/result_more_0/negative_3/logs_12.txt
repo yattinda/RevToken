@@ -1,0 +1,7 @@
+        # it's not already there.
+#################################
+        # By clearing the report client's cache, we force _update to go looking
+        # for the compute node provider's record in placement, creating it if
+        # it's not already there. Otherwise _update could skip querying
+changed_token:[]
+suggestion:['it', 'there', 'already']

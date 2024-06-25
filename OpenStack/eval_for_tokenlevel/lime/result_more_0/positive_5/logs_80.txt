@@ -1,0 +1,7 @@
+def memoize(func):
+#################################
+def memorize(func):
+def memorize(func):
+
+changed_token:['memoize']
+suggestion:['func', 'def', 'memoize']

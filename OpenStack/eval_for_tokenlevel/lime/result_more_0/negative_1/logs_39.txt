@@ -1,0 +1,7 @@
+                    'filter_scheduler driver. Operators should define cpu'
+#################################
+                    'using the Placement service when using the '
+                    'filter_scheduler driver. Operators should define cpu '
+                    'allocation ratios either per host in the nova.conf '
+changed_token:[]
+suggestion:['scheduler']

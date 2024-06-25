@@ -1,0 +1,7 @@
+    ADMIN_API = True
+#################################
+
+VALID_DISK_CACHEMODES = [
+
+changed_token:['ADMIN', 'API', 'True']
+suggestion:['API', 'True', 'ADMIN']

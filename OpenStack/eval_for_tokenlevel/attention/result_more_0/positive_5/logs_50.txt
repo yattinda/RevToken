@@ -1,0 +1,7 @@
+    """A fixture to temporary fix oslo.messaging bug #1529084 by using
+#################################
+
+                context, instance, volume_api, self.volume_size,
+
+changed_token:['oslo', '#NUM', 'fixture', 'bug', 'A', 'temporary', 'to', 'using', 'by', 'messaging', 'fix']
+suggestion:['NUM', 'using', 'by', 'A', 'messaging']

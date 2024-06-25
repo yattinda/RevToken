@@ -1,0 +1,7 @@
+                      lambda *a, **k: None)
+#################################
+                      lambda c, i, s: None)
+                      lambda c, i, s: None)
+
+changed_token:['**k', '*a']
+suggestion:['lambda', 'k', 'a']

@@ -1,0 +1,7 @@
+        # except the AggregateCoreFilter and related RAM and disk filters now,
+#################################
+        # about dropping the fields from the 'ComputeNode' object entirely
+        # except 'Aggregate(Core|Ram|Disk)Filter', the 'os-hypervisors' API,
+        # and perhaps some out-of-tree filters. Once the in-tree stuff is
+changed_token:['RAM', 'AggregateCoreFilter', 'the', 'now', 'disk', 'and', 'related']
+suggestion:['and']

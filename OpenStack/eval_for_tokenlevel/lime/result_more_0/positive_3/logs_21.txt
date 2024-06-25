@@ -1,0 +1,7 @@
+                flag = flag.strip('-')
+#################################
+                            policy='disable'))
+                flag = flag.lstrip('-')
+                cpu.add.feature(
+changed_token:['strip']
+suggestion:['flag', 'strip']

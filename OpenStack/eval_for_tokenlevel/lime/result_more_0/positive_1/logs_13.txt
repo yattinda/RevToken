@@ -1,0 +1,7 @@
+        return True
+#################################
+            self.resources = copy.deepcopy(resources)
+            return True
+
+changed_token:['True']
+suggestion:['True']

@@ -1,0 +1,7 @@
+        seen = []
+#################################
+        seen = set()
+        seen = set()
+
+changed_token:[]
+suggestion:['seen']

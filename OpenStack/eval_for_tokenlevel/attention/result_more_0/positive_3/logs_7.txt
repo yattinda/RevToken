@@ -1,0 +1,7 @@
+        if self._supports_vdpa():
+#################################
+            libvirt.VIR_CONNECT_LIST_NODE_DEVICES_CAP_NET |
+            libvirt.VIR_CONNECT_LIST_NODE_DEVICES_CAP_PCI_DEV
+        )
+changed_token:['vdpa', 'if', 'supports', 'self']
+suggestion:['if', 'vdpa', 'supports']

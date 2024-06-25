@@ -1,0 +1,7 @@
+    USE_NEUTRON = False
+#################################
+
+    Note that this weigher is supposed to be used via
+
+changed_token:['NEUTRON', 'False', 'USE']
+suggestion:['False']

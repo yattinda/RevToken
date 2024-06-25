@@ -1,0 +1,7 @@
+            ks_loading.get_auth_plugin_conf_options('v2password') +
+#################################
+
+                    vifs = [vif.source_vif for vif in migrate_data.vifs
+
+changed_token:['loading', 'plugin', 'get', 'ks', 'auth', 'vNUMpassword', 'options', 'conf']
+suggestion:['vNUMpassword', 'ks', 'loading']

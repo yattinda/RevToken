@@ -1,0 +1,7 @@
+                return_value=set([2, 3]))
+#################################
+        """
+                new=mock.Mock(return_value={2, 3}))
+    def test_resource_request_init_with_mixed_cpus_isolate_emulator(self):
+changed_token:['set']
+suggestion:['return', 'NUM', 'set']

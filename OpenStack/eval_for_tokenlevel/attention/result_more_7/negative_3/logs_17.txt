@@ -1,0 +1,7 @@
+        if not allocations or not allocations.get('allocations'):
+#################################
+        else:
+        if allocations and allocations.get('allocations'):
+            # Check to see if the allocation project_id
+changed_token:['or', 'not']
+suggestion:['if', 'get', 'allocations']

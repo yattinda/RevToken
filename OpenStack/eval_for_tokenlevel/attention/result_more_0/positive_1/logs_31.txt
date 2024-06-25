@@ -1,0 +1,7 @@
+                                            run_as_root=True)
+#################################
+                info = images.privileged_qemu_img_info(
+                    path, output_format='json')
+
+changed_token:['root', 'run', 'True', 'as']
+suggestion:['True']

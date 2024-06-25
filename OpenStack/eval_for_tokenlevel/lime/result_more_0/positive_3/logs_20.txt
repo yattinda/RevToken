@@ -1,0 +1,7 @@
+            return resp.json()['consumer_generation']
+#################################
+
+                          "or a temporary occurrence as compute nodes start "
+
+changed_token:['consumer', 'return', 'generation', 'resp', 'json']
+suggestion:['return', 'consumer', 'resp']

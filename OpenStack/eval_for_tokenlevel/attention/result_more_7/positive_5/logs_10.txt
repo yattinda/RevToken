@@ -1,0 +1,7 @@
+            qos_normal_port, qos_sriov_port, self.flavor_with_group_policy)
+#################################
+
+        # Use a custom weigher to make sure that we have a predictable host
+
+changed_token:['qos', 'group', 'sriov', 'port', 'normal', 'flavor', 'self', 'with', 'policy']
+suggestion:['policy', 'with', 'flavor', 'group', 'qos']

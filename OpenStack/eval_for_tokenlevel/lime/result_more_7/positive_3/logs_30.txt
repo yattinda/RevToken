@@ -1,0 +1,7 @@
+    * 2.61 - Add host/hostId to show instance action event API.
+#################################
+    * 2.61 - Add ``host`` and ``hostId`` to show instance action event API.
+    * 2.61 - Add ``host`` and ``hostId`` to show instance action event API.
+
+changed_token:['to', 'host', 'hostId']
+suggestion:['to', 'API', 'NUM']

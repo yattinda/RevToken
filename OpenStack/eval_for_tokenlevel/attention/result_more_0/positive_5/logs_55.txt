@@ -1,0 +1,7 @@
+            return 'cached'
+#################################
+            return True
+            return True
+
+changed_token:['cached']
+suggestion:['cached', 'return']

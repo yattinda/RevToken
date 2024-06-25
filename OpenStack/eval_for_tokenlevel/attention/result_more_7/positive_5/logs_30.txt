@@ -1,0 +1,7 @@
+    # instances if CONF.api.instance_list_per_project_cells is True and
+#################################
+    # variant that makes this native to nova.context.
+    # instances. We could optimize this to avoid the CellMappingList query
+    # for single-cell deployments by checking the cell cache and only doing
+changed_token:['list', 'project', 'cells', 'instance', 'if', 'True', 'per', 'CONF', 'is', 'api']
+suggestion:['project', 'True', 'and', 'CONF', 'is']

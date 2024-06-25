@@ -1,0 +1,7 @@
+                raise exception.InternalError(
+#################################
+                    reason=m % {'ret': e, 'u': u})
+                raise exception.InvalidCPUInfo(
+                    reason=m % {'ret': e, 'u': u})
+changed_token:['InternalError']
+suggestion:['raise', 'exception', 'InternalError']

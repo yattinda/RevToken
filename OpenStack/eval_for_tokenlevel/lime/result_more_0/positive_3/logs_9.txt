@@ -1,0 +1,7 @@
+                cpu_multipliers.append(float(val))
+#################################
+    return value
+        value = utils.validate_num_values(
+            aggregate_vals, multiplier_config, cast_to=float)
+changed_token:['cpu', 'append', 'multipliers', 'val']
+suggestion:['cpu', 'multipliers', 'val']

@@ -1,0 +1,7 @@
+                    'allocation ratios either per host in the nova.conf'
+#################################
+                    'filter_scheduler driver. Operators should define cpu '
+                    'allocation ratios either per host in the nova.conf '
+                    'or via the placement API.')
+changed_token:[]
+suggestion:['either']

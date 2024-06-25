@@ -1,0 +1,7 @@
+class MatchSpec(object):
+#################################
+    candidates are matched.
+class CandidateSearchContext(object):
+    """An object keeping certain lookups and caches for when allocation
+changed_token:['class', 'MatchSpec']
+suggestion:['MatchSpec']

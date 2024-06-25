@@ -1,0 +1,7 @@
+VIR_CONNECT_LIST_NODE_DEVICES_CAP_VDPA = 131072
+#################################
+VIR_CONNECT_LIST_NODE_DEVICES_CAP_VDPA = 1 << 17
+VIR_CONNECT_LIST_NODE_DEVICES_CAP_VDPA = 1 << 17
+
+changed_token:['NUM']
+suggestion:['CONNECT', 'VIR', 'NODE']

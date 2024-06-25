@@ -1,0 +1,7 @@
+                objects.InstanceNUMACell(
+#################################
+                cpu_pinning={2: 6, 3: 7},
+            objects.InstanceNUMACell(
+                id=2, cpuset=set(), pcpuset=set([0, 1]),
+changed_token:[]
+suggestion:['objects', 'InstanceNUMACell']

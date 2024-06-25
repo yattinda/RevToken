@@ -1,0 +1,7 @@
+        :param source_consumer_uuid: the UUID of the consumer that's allocation
+#################################
+                                     allocations
+        :param source_consumer_uuid: the UUID of the consumer from which
+                                     allocations are moving
+changed_token:['thats', 'allocation']
+suggestion:['param', 'consumer', 'of']

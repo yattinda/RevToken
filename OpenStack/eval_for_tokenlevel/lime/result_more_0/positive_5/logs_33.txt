@@ -1,0 +1,7 @@
+                context, instance, volume_api, self.volume_size, wait_func,
+#################################
+                wait_func=wait_func, snapshot=snapshot)
+                context, instance, volume_api, self.volume_size,
+                wait_func=wait_func, snapshot=snapshot)
+changed_token:['wait']
+suggestion:['volume', 'wait', 'api', 'instance', 'context']

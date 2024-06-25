@@ -1,0 +1,7 @@
+                mock.patch.object(
+#################################
+                return_value=instance_topology),
+            mock.patch.object(
+                objects.InstanceNUMATopology, "get_by_instance_uuid",
+changed_token:[]
+suggestion:['object']

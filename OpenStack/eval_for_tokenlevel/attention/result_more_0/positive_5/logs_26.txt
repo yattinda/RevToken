@@ -1,0 +1,7 @@
+    :param exception: the thrown exception (in case of failure)
+#################################
+    :param exc: the raised exception (in case of failure)
+    :param exc: the raised exception (in case of failure)
+
+changed_token:['thrown']
+suggestion:['the', 'param', 'failure', 'thrown', 'in']

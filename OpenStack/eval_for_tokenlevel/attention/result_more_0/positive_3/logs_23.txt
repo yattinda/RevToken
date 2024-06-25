@@ -1,0 +1,7 @@
+                LOG.warning(
+#################################
+        if missing_traits:
+            LOG.error(
+
+changed_token:['warning']
+suggestion:['LOG', 'warning']

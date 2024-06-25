@@ -1,0 +1,7 @@
+        timeout = CONF.instance_delete_interval * 2
+#################################
+
+    except OSError as e:
+
+changed_token:['interval', 'delete', 'timeout', 'instance', 'NUM', 'CONF']
+suggestion:['NUM', 'timeout', 'CONF']

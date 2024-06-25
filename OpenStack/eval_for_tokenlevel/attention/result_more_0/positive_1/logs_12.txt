@@ -1,0 +1,7 @@
+            for ns_conf in CONF.libvirt.pmem_namespace_sizes:
+#################################
+        # pmem name list group by label
+        pmem_names_by_label = collections.defaultdict(list)
+        if CONF.libvirt.pmem_namespaces:
+changed_token:['for', 'conf', 'in', 'namespace', 'ns', 'sizes']
+suggestion:['sizes']

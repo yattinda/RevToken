@@ -1,0 +1,7 @@
+* Path of qemu-img command (DRIVELETTER:\\PATH\\TO\\QEMU-IMG\\COMMAND).
+#################################
+* Path of qemu-img command (DRIVELETTER:\PATH\TO\QEMU-IMG\COMMAND).
+* Path of qemu-img command (DRIVELETTER:\PATH\TO\QEMU-IMG\COMMAND).
+
+changed_token:[]
+suggestion:['of']

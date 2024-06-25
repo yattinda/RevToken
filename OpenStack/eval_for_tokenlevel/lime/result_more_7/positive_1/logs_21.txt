@@ -1,0 +1,7 @@
+        lpar_wrap = vm.get_instance_wrapper(self._adapter, instance)
+#################################
+        for stg_elem, vios in self._get_bootdisk_iter(instance):
+        for stg_elem, vios in self._get_bootdisk_iter(instance):
+
+changed_token:['instance', 'wrap', 'wrapper', 'adapter', 'lpar', 'vm']
+suggestion:['lpar']

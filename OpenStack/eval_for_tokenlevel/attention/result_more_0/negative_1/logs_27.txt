@@ -1,0 +1,7 @@
+        return utils.get_weight_multiplier(host_state, 'cpu')
+#################################
+            CONF.filter_scheduler.ram_weight_multiplier)
+        return utils.get_weight_multiplier(
+            host_state, 'ram_weight_multiplier',
+changed_token:['cpu']
+suggestion:['return']

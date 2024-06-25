@@ -1,0 +1,7 @@
+        self.compute_api = compute.API(*args, **kwargs)
+#################################
+    def __init__(self):
+        super(ServerPasswordController, self).__init__()
+        self.compute_api = compute.API()
+changed_token:['args', '**kwargs']
+suggestion:['kwargs', 'compute', 'args']

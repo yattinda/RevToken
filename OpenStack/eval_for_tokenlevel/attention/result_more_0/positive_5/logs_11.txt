@@ -1,0 +1,7 @@
+        pass
+#################################
+        raise NotImplementedError()
+        raise NotImplementedError()
+
+changed_token:['pass']
+suggestion:['pass']

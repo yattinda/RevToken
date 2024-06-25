@@ -1,0 +1,7 @@
+            pinned_cpus=set([]),
+#################################
+            pinned_cpus=set(),
+            pinned_cpus=set(),
+
+changed_token:[]
+suggestion:['set', 'pinned', 'cpus']

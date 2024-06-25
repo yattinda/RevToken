@@ -1,0 +1,7 @@
+                r"'\[neutron_physnet_bar\] numa_nodes' option was defined.",
+#################################
+                "was listed in '[neutron] physnets' but no corresponding "
+                "'[neutron_physnet_bar] numa_nodes' option was defined.",
+
+changed_token:['r']
+suggestion:['numa', 'physnet', 'r', 'bar', 'neutron']

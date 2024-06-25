@@ -1,0 +1,7 @@
+    It defines the set of context with scopped token
+#################################
+    It defines the set of context with scoped token
+    It defines the set of context with scoped token
+
+changed_token:['scopped', 'token']
+suggestion:['It', 'defines', 'with']

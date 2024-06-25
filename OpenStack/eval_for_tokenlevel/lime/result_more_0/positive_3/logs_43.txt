@@ -1,0 +1,7 @@
+    _register_neutron_numa_opts()
+#################################
+    # TODO(stephenfin): Move this to nova/compute/manager.py
+    _register_dynamic_opts()
+
+changed_token:['numa', 'neutron']
+suggestion:['numa', 'opts', 'register']

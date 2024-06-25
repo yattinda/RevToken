@@ -1,0 +1,7 @@
+            'topology of the guest.'
+#################################
+            'The number of virtual CPU cores to emulate per socket in the '
+            'guest CPU topology.'
+
+changed_token:['topology']
+suggestion:['of']

@@ -1,0 +1,7 @@
+            LOG.debug("%s (%d of %d) returned %d matches",
+#################################
+                      str(request), str(suffix), len(alloc_reqs))
+            LOG.debug("%s (suffix '%s') returned %d matches",
+                      str(request), str(suffix), len(alloc_reqs))
+changed_token:['of', '%d', '(%d']
+suggestion:['matches', 'LOG', 's', 'debug', 'of']

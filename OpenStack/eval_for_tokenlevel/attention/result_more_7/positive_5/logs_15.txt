@@ -1,0 +1,7 @@
+    for requested_network in requested_networks or []:
+#################################
+    for requested_network in requested_networks:
+    for requested_network in requested_networks:
+
+changed_token:['or']
+suggestion:['or', 'for', 'in', 'network', 'networks']

@@ -1,0 +1,7 @@
+        if (object_numa_cell.cpu_pinning and
+#################################
+            pin_cpuset.cpuset = set([inst_cell.cpu_pinning[vcpu]])
+        # 'InstanceNUMACell.cpu_pinning' tracks the CPU pinning pair for guest
+        # CPU and host CPU. If the guest CPU is in the keys of 'cpu_pinning',
+changed_token:['if', '(object', 'numa']
+suggestion:['if', 'cell', 'and']

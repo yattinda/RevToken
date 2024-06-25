@@ -1,0 +1,7 @@
+            if ('numa_topology' not in instance or
+#################################
+
+            if not (instance.numa_topology and
+                        instance.numa_topology.cpu_pinning_requested):
+changed_token:['(numa', 'not', 'in', 'or']
+suggestion:['numa', 'topology', 'not']

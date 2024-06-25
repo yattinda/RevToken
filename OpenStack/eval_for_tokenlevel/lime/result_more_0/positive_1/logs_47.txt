@@ -1,0 +1,7 @@
+                # This indicates some unexpected error so log it and continue.
+#################################
+                # migrate_instance_finish runs.
+                # We don't raise an exception here because we assume that
+                # port bindings will be updated correctly when
+changed_token:['so', 'log', 'error', 'continue', 'some', 'This', 'indicates', 'and', 'unexpected', 'it']
+suggestion:['This']

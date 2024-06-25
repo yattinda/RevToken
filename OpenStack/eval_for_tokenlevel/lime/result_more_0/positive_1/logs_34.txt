@@ -1,0 +1,7 @@
+        def fake_orig_claim(
+#################################
+
+    Note that this weigher is supposed to be used via
+
+changed_token:['claim', 'def', 'fake', 'orig']
+suggestion:['orig']

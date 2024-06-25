@@ -1,0 +1,7 @@
+                return upgradecheck.UpgradeCheckResult(upgradecheck.UpgradeCheckCode.FAILURE, msg)
+#################################
+                return upgradecheck.Result(upgradecheck.Code.FAILURE, msg)
+                return upgradecheck.Result(upgradecheck.Code.FAILURE, msg)
+
+changed_token:['UpgradeCheckResult', 'UpgradeCheckCode']
+suggestion:['msg', 'return', 'UpgradeCheckResult', 'UpgradeCheckCode', 'FAILURE']

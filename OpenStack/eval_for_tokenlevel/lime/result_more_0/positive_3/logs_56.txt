@@ -1,0 +1,7 @@
+This policy is for POST /remote-consoles API and below Server actions APIs
+#################################
+This policy is for ``POST /remote-consoles`` API and below Server actions APIs
+This policy is for ``POST /remote-consoles`` API and below Server actions APIs
+
+changed_token:['POST', 'APIs', 'API']
+suggestion:['remote', 'and', 'POST']

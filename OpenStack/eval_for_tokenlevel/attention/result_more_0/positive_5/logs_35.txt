@@ -1,0 +1,7 @@
+        :param cells: An list of ``LibvirtConfigCapsNUMACell`` objects.
+#################################
+        :param cells: A list of ``LibvirtConfigCapsNUMACell`` objects.
+        :param cells: A list of ``LibvirtConfigCapsNUMACell`` objects.
+
+changed_token:['An']
+suggestion:['cells', 'An', 'LibvirtConfigCapsNUMACell', 'param', 'objects']

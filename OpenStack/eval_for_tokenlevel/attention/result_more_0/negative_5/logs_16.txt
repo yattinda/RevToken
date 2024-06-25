@@ -1,0 +1,7 @@
+    return IMPL.block_device_mapping_root_by_instance(context,
+#################################
+    return IMPL.block_device_mapping_get_root_by_instance(context,
+    return IMPL.block_device_mapping_get_root_by_instance(context,
+
+changed_token:[]
+suggestion:['return', 'context', 'root', 'instance', 'mapping']

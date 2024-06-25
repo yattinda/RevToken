@@ -1,0 +1,3 @@
+top_5_recall : 0.627
+top_5_precision : 0.155
+top_5_F1_Score : 0.248

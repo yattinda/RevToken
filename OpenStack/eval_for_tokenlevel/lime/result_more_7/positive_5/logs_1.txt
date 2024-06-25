@@ -1,0 +1,7 @@
+        # so this proably works but block evac with vdpa until tested.
+#################################
+        if instance.has_vdpa_ports():
+        # so this probably works, but we block evac with vdpa until tested.
+        if instance.has_vdpa_ports():
+changed_token:['but', 'proably']
+suggestion:['vdpa', 'block', 'evac', 'proably', 'works']
