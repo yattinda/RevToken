@@ -23,7 +23,7 @@ MODEL_TYPE = codebert_design.MODEL_TYPE
 TOKENIZER = codebert_design.TOKENIZER
 LEAENING_RATE = codebert_design.LEAENING_RATE
 datasets_path = '../../datasets/train_and_test/'
-more_than_n = 7
+more_than_n = 0
 os.mkdir(RQ2_path := f"../attention/result_moreXXX_{more_than_n}")
 checkpoint = torch.load(f'../../model/checkpoint/checkpoint_{epoch}.pth', map_location=device)
 
@@ -244,6 +244,7 @@ top_5_common_counter = []
 top_30per_common_counter = []
 
 seven_up_token_counter = []
+seven_up_changed_token_counter = []
 
 ahi_counter = 0
 for i, d in enumerate(test_dataset):
@@ -310,7 +311,7 @@ for i, d in enumerate(test_dataset):
             top_5_token_counter.append(len(top_5_lst))
             if (len(shaped_code.split(' '))-2) > 7:
                 seven_up_token_counter.append(len(shaped_code.split(' '))-2)
-
+                seven_up_changed_token_counter.append(len(acttually_changed_token_lst))
             if y_pred == 1 and len(shaped_code.split(' '))-2 >= more_than_n:
                 top_1_common_counter.append(len(find_partial_matches(top_1_lst, acttually_changed_token_lst)))
                 top_3_common_counter.append(len(find_partial_matches(top_3_lst, acttually_changed_token_lst)))
@@ -395,25 +396,31 @@ venn_make(changed_token_lst_counter, top_1_common_counter, top_1_token_counter, 
 venn_make(changed_token_lst_counter, top_3_common_counter, top_3_token_counter, 3)
 venn_make(changed_token_lst_counter, top_5_common_counter, top_5_token_counter, 5)
 
-print("Token per line")
-print(f"mean: {statistics.mean(codes_token_counter)}")
-print(f"median: {statistics.median(codes_token_counter)}")
-print(f"mode: {statistics.mode(codes_token_counter)}")
-print(f"pvariance: {statistics.pvariance(codes_token_counter)}")
-print(f'Token 10%: {top_10_percent_value(codes_token_counter)}')
+with open(os.path.join(RQ2_path, "change_data.txt"), 'a') as change:
+    change.write("Token per line\n")
+    change.write(f"mean: {statistics.mean(codes_token_counter)}\n")
+    change.write(f"median: {statistics.median_high(codes_token_counter)}\n")
+    change.write(f"mode: {statistics.mode(codes_token_counter)}\n")
+    change.write(f"pvariance: {statistics.pvariance(codes_token_counter)}\n")
+    change.write(f'Token 10%: {top_10_percent_value(codes_token_counter)}\n\n')
 
-print("changed_token per line")
-print(f"mean: {statistics.mean(changed_token_lst_counter)}")
-print(f"median: {statistics.median(changed_token_lst_counter)}")
-print(f"mode: {statistics.mode(changed_token_lst_counter)}")
-print(f"pvariance: {statistics.pvariance(changed_token_lst_counter)}")
+    change.write("changed_token per line\n")
+    change.write(f"mean: {statistics.mean(changed_token_lst_counter)}\n")
+    change.write(f"median: {statistics.median_high(changed_token_lst_counter)}\n")
+    change.write(f"mode: {statistics.mode(changed_token_lst_counter)}\n")
+    change.write(f"pvariance: {statistics.pvariance(changed_token_lst_counter)}\n\n")
 
-print("seven_token per line")
-print(f"mean: {statistics.mean(seven_up_token_counter)}")
-print(f"median: {statistics.median(seven_up_token_counter)}")
-print(f"mode: {statistics.mode(seven_up_token_counter)}")
-print(f"pvariance: {statistics.pvariance(seven_up_token_counter)}")
-print(seven_up_token_counter)
+    change.write("seven token per line\n")
+    change.write(f"mean: {statistics.mean(seven_up_token_counter)}\n")
+    change.write(f"median: {statistics.median_high(seven_up_token_counter)}\n")
+    change.write(f"mode: {statistics.mode(seven_up_token_counter)}\n")
+    change.write(f"pvariance: {statistics.pvariance(seven_up_token_counter)}\n\n")
+
+    change.write("seven changed token per line\n")
+    change.write(f"mean: {statistics.mean(seven_up_changed_token_counter)}\n")
+    change.write(f"median: {statistics.median_high(seven_up_changed_token_counter)}\n")
+    change.write(f"mode: {statistics.mode(seven_up_changed_token_counter)}\n")
+    change.write(f"pvariance: {statistics.pvariance(seven_up_changed_token_counter)}\n")
 
 sns.violinplot(data=[codes_token_counter, changed_token_lst_counter])
 plt.savefig(os.path.join(RQ2_path, 'changed_token_perline.png'))

@@ -1,0 +1,24 @@
+Token per line
+mean: 7.1923076923076925
+median: 7
+mode: 5
+pvariance: 14.86301775147929
+Token 10%: 12
+
+changed_token per line
+mean: 2.076923076923077
+median: 1
+mode: 0
+pvariance: 6.122287968441815
+
+seven token per line
+mean: 10.574074074074074
+median: 10
+mode: 10
+pvariance: 5.8741426611796985
+
+seven changed token per line
+mean: 2.462962962962963
+median: 2
+mode: 0
+pvariance: 8.693072702331962
