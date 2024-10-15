@@ -1,8 +1,8 @@
 # RevToken
 
-This repository includes the replication package including the source code and a part of datasets.
+This repository is the replication package including the source code and a part of datasets.
 
-NOTE：This repository excludes data that is too large to upload to Github
+NOTE：This repository excluded data that is too large to upload to Github
 ## Source code
 ```
 |
